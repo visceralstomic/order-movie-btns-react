@@ -9,8 +9,7 @@ const config = {
 	devServer: {
 		contentBase: path.resolve(__dirname, 'build'),
 		compress: true,
-		port: 3000,
-		public: "16302049ffaf.ngrok.io"
+		port: 3000
 	},
 	module: {
 		rules: [
