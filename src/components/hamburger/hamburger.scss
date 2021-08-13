@@ -1,0 +1,35 @@
+
+.style-hamburger {
+	display: none;
+  	cursor: pointer;
+
+	div {
+		width: 2rem;
+		height: 0.25rem;
+		border-radius: 10px;
+		margin: 4px 0;
+		transition: all 0.3s linear;
+		transform-origin: 5px;
+		background-color: white;
+	}
+
+	@media screen and (max-width: 400px) {
+		  	display: inline-block;
+	}
+
+}
+
+.change {
+	:first-child {
+		transform: rotate(45deg);
+	}
+
+	:nth-child(2){
+		opacity: 0;
+	}
+
+	:nth-child(3) {
+		transform: rotate(-45deg);
+	}			
+
+}
